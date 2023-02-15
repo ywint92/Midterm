@@ -1,0 +1,95 @@
+@import url('https://www.alvinailey.org/repertory');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Nunito' , sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+body{
+    max-width: 1440;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'kreon' , serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-indent: 1rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(11, 5, 49);
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+header a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-weight: 300;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color:#ffffff;
+    padding: 0.4rem;
+    font-size: 0.7rem;
+    
+}
+
+.hero-container {
+    text-align: center;
+   color:#ffffff
+
+}
+
+.hero-container img {
+    max-width: 100;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+}
+
+.hero-sub-info {
+    text-align: center;
+    margin: Irem;
+    padding-bottom: 0.5rem;
+}
+
+
+.details {
+    display: flow-root;
+}
+
+.details .detail-image-left {
+    width: 50%;
+    float: left;
+}
